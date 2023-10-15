@@ -30,7 +30,7 @@
         {
             textBox1 = new TextBox();
             Save = new Button();
-            saveFileDialog1 = new SaveFileDialog();
+         
             SuspendLayout();
             // 
             // textBox1
@@ -52,6 +52,7 @@
             Save.UseVisualStyleBackColor = true;
             Save.Click += button1_Click;
             // 
+          
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -69,6 +70,6 @@
 
         private TextBox textBox1;
         private Button Save;
-        private SaveFileDialog saveFileDialog1;
+      
     }
 }

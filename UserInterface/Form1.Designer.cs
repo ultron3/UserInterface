@@ -61,7 +61,7 @@
             Controls.Add(Save);
             Controls.Add(textBox1);
             Name = "Form1";
-            Text = "Form1";
+            Text = "Note";
             ResumeLayout(false);
             PerformLayout();
         }
